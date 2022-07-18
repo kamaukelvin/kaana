@@ -13,7 +13,7 @@ const CarouselComponent = () => {
   return (
     <StyledCarousel showThumbs={false}>
       <div>
-        <img src="/assets/images/placeholders/child-dad.jpg" />
+        <img src="/assets/images/placeholders/science.jpeg" />
         {/* <p className="legend">Legend 1</p> */}
       </div>
       <div>

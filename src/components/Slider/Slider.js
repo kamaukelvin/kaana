@@ -4,37 +4,24 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper";
 import styled from "styled-components";
+import { Carousel } from "react-responsive-carousel";
+import { devices } from "../../utils/screen_sizes";
 
-export const StyledSwiper = styled(Swiper)`
-  .swiper {
+export const StyledCarousel = styled(Carousel)`
+  .carousel .slide img {
     width: 100%;
-    height: 100%;
-  }
 
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
+    height: 470px;
     object-fit: cover;
+    object-position: center;
+    @media ${devices.mobileM} {
+      height: 350px;
+      object-fit: cover;
+    }
+    @media ${devices.laptop} {
+      height: 550px;
+      object-fit: cover;
+    }
   }
 `;
 
@@ -47,45 +34,14 @@ const SliderComponent = () => {
     }, 500);
   }, []);
   return (
-    // <Slider {...settings}>
-    //   <div>
-    //     <img src="/assets/images/logo.png" alt="slider" />
-    //   </div>
-    //   <div>
-    //     <img src="http://placekitten.com/g/400/200" />
-    //   </div>
-    //   <div>
-    //     <img src="http://placekitten.com/g/400/200" />
-    //   </div>
-    //   <div>
-    //     <img src="http://placekitten.com/g/400/200" />
-    //   </div>
-    // </Slider>
-    <>
-      {startSwiper ? (
-        <StyledSwiper
-          navigation={true}
-          modules={[Navigation]}
-          className="mySwiper"
-          autoplayTimeout={3}
-          height={300}
-          autoplay={true}
-        >
-          <SwiperSlide>
-            {" "}
-            <img src="/assets/images/placeholders/experiment-fun.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            {" "}
-            <img src="http://placekitten.com/g/400/200" />
-          </SwiperSlide>
-          <SwiperSlide>
-            {" "}
-            <img src="http://placekitten.com/g/400/200" />
-          </SwiperSlide>
-        </StyledSwiper>
-      ) : null}
-    </>
+    <StyledCarousel showArrows={false} showThumbs={false}>
+      <div>
+        <img src="/assets/images/placeholders/maths-fun.jpeg" />
+      </div>
+      <div>
+        <img src="/assets/images/placeholders/science.jpeg" />
+      </div>
+    </StyledCarousel>
   );
 };
 

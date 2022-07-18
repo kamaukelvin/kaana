@@ -581,12 +581,12 @@ const Featured = () => {
               <img className="item-mask" src="images/mask.png" alt title />
               <img src="http://placehold.it/381x331" alt title />
               <div className="dt-sc-image-overlay">
-                <a href="#" className="link">
+                {/* <a href="#" className="link">
                   <span className="fa fa-link" />
                 </a>
                 <a href="#" className="zoom">
                   <span className="fa fa-search" />
-                </a>
+                </a> */}
               </div>
             </div>
             <div className="team-details">
@@ -606,12 +606,12 @@ const Featured = () => {
               <img className="item-mask" src="images/mask.png" alt title />
               <img src="http://placehold.it/381x331" alt title />
               <div className="dt-sc-image-overlay">
-                <a href="#" className="link">
+                {/* <a href="#" className="link">
                   <span className="fa fa-link" />
                 </a>
                 <a href="#" className="zoom">
                   <span className="fa fa-search" />
-                </a>
+                </a> */}
               </div>
             </div>
             <div className="team-details">
@@ -631,12 +631,12 @@ const Featured = () => {
               <img className="item-mask" src="images/mask.png" alt title />
               <img src="http://placehold.it/381x331" alt title />
               <div className="dt-sc-image-overlay">
-                <a href="#" className="link">
+                {/* <a href="#" className="link">
                   <span className="fa fa-link" />
                 </a>
                 <a href="#" className="zoom">
                   <span className="fa fa-search" />
-                </a>
+                </a> */}
               </div>
             </div>
             <div className="team-details">
@@ -656,12 +656,12 @@ const Featured = () => {
               <img className="item-mask" src="images/mask.png" alt title />
               <img src="http://placehold.it/381x331" alt title />
               <div className="dt-sc-image-overlay">
-                <a href="#" className="link">
+                {/* <a href="#" className="link">
                   <span className="fa fa-link" />
                 </a>
                 <a href="#" className="zoom">
                   <span className="fa fa-search" />
-                </a>
+                </a> */}
               </div>
             </div>
             <div className="team-details">
