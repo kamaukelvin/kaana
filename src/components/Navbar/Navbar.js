@@ -24,7 +24,7 @@ const Navbar = () => {
         </StyledLogo>
         <div className="contact-details">
           <p className="mail">
-            <a href="#">kaana@gmail.com</a>
+            <a href>kaana@gmail.com</a>
             <span className="fa fa-envelope" />
           </p>
           <p className="phone-no">
@@ -62,7 +62,7 @@ const Navbar = () => {
           <ul className="dt-sc-social-icons">
             <li>
               <a
-                href="#"
+                href
                 title="Facebook"
                 className="dt-sc-tooltip-top facebook"
               >
@@ -70,18 +70,18 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#" title="Youtube" className="dt-sc-tooltip-top youtube">
+              <a href title="Youtube" className="dt-sc-tooltip-top youtube">
                 <span className="fa fa-youtube" />
               </a>
             </li>
             <li>
-              <a href="#" title="Twitter" className="dt-sc-tooltip-top twitter">
+              <a href title="Twitter" className="dt-sc-tooltip-top twitter">
                 <span className="fa fa-twitter" />
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href
                 title="Google Plus"
                 className="dt-sc-tooltip-top gplus"
               >

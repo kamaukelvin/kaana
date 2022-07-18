@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
+import React from "react";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Navigation } from "swiper";
 import styled from "styled-components";
 import { Carousel } from "react-responsive-carousel";
 import { devices } from "../../utils/screen_sizes";
@@ -26,20 +24,14 @@ export const StyledCarousel = styled(Carousel)`
 `;
 
 const SliderComponent = () => {
-  const [startSwiper, setStartSwiper] = useState(false);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setStartSwiper(true);
-    }, 500);
-  }, []);
   return (
     <StyledCarousel showArrows={false} showThumbs={false}>
       <div>
-        <img src="/assets/images/placeholders/maths-fun.jpeg" />
+        <img src="/assets/images/placeholders/maths-fun.jpeg" alt="slider" />
       </div>
       <div>
-        <img src="/assets/images/placeholders/science.jpeg" />
+        <img src="/assets/images/placeholders/science.jpeg" alt="slider"  />
       </div>
     </StyledCarousel>
   );

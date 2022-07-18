@@ -39,11 +39,11 @@ const Featured = () => {
               <span className="icon-outer">
                 <img
                   src="/assets/images/placeholders/experiment-fun.jpg"
-                  alt
+                     alt=""
                   title
                 />
                 <span className="infolayer">
-                  <a href="#">
+                  <a href>
                     <i className="fa fa-link" />
                   </a>
                 </span>
@@ -65,11 +65,11 @@ const Featured = () => {
               <span className="icon-outer">
                 <img
                   src="/assets/images/placeholders/magic-maths.jpg"
-                  alt
+                     alt=""
                   title
                 />
                 <span className="infolayer">
-                  <a href="#">
+                  <a href>
                     <i className="fa fa-link" />
                   </a>
                 </span>
@@ -89,9 +89,9 @@ const Featured = () => {
           <div className="dt-sc-ico-content type1">
             <div className="icon">
               <span className="icon-outer">
-                <img src="/assets/images/placeholders/drone.jpg" alt title />
+                <img src="/assets/images/placeholders/drone.jpg"    alt="" title />
                 <span className="infolayer">
-                  <a href="#">
+                  <a href>
                     <i className="fa fa-link" />
                   </a>
                 </span>
@@ -113,11 +113,11 @@ const Featured = () => {
               <span className="icon-outer">
                 <img
                   src="/assets/images/placeholders/engineering.jpg"
-                  alt
+                     alt=""
                   title
                 />
                 <span className="infolayer">
-                  <a href="#">
+                  <a href>
                     <i className="fa fa-link" />
                   </a>
                 </span>
@@ -145,7 +145,7 @@ const Featured = () => {
                   <span className="fa fa-glass"> </span>
                 </div>
                 <h4>
-                  <a href="#" target="_blank">
+                  <a href target="_blank">
                     {" "}
                     Lorem ipsum dolor sit{" "}
                   </a>
@@ -161,7 +161,7 @@ const Featured = () => {
                   <span className="fa fa-pencil"> </span>
                 </div>
                 <h4>
-                  <a href="#" target="_blank">
+                  <a href target="_blank">
                     {" "}
                     Lorem ipsum dolor sit{" "}
                   </a>
@@ -177,7 +177,7 @@ const Featured = () => {
                   <span className="fa fa-bullseye"> </span>
                 </div>
                 <h4>
-                  <a href="#" target="_blank">
+                  <a href target="_blank">
                     {" "}
                     Lorem ipsum dolor sit{" "}
                   </a>
@@ -194,7 +194,7 @@ const Featured = () => {
                   <span className="fa fa-tachometer"> </span>
                 </div>
                 <h4>
-                  <a href="#" target="_blank">
+                  <a href target="_blank">
                     {" "}
                     Lorem ipsum dolor sit{" "}
                   </a>
@@ -210,7 +210,7 @@ const Featured = () => {
                   <span className="fa fa-magic"> </span>
                 </div>
                 <h4>
-                  <a href="#" target="_blank">
+                  <a href target="_blank">
                     {" "}
                     Lorem ipsum dolor sit{" "}
                   </a>
@@ -226,7 +226,7 @@ const Featured = () => {
                   <span className="fa fa-music"> </span>
                 </div>
                 <h4>
-                  <a href="#" target="_blank">
+                  <a href target="_blank">
                     {" "}
                     Lorem ipsum dolor sit{" "}
                   </a>
@@ -246,7 +246,7 @@ const Featured = () => {
                   {" "}
                   <img
                     src="/assets/images/placeholders/experiment-fun.jpg"
-                    alt
+                       alt=""
                     title
                   />{" "}
                 </li>
@@ -265,7 +265,7 @@ const Featured = () => {
                 <div className="portfolio-thumb">
                   <img
                     src="/assets/images/placeholders/rain-cloud.png"
-                    alt
+                       alt=""
                     title
                   />
                   <div className="image-overlay">
@@ -293,7 +293,7 @@ const Featured = () => {
                 <div className="portfolio-thumb">
                   <img
                     src="/assets/images/placeholders/image1.jpeg"
-                    alt
+                       alt=""
                     title
                   />
                   <div className="image-overlay">
@@ -321,7 +321,7 @@ const Featured = () => {
                 <div className="portfolio-thumb">
                   <img
                     src="/assets/images/placeholders/image4.jpeg"
-                    alt
+                       alt=""
                     title
                   />
                   <div className="image-overlay">
@@ -349,7 +349,7 @@ const Featured = () => {
                 <div className="portfolio-thumb">
                   <img
                     src="/assets/images/placeholders/child-dad.jpg"
-                    alt
+                       alt=""
                     title
                   />
                   <div className="image-overlay">
@@ -377,7 +377,7 @@ const Featured = () => {
                 <div className="portfolio-thumb">
                   <img
                     src="/assets/images/placeholders/maths-fun3.jpeg"
-                    alt
+                       alt=""
                     title
                   />
                   <div className="image-overlay">
@@ -405,7 +405,7 @@ const Featured = () => {
                 <div className="portfolio-thumb">
                   <img
                     src="/assets/images/placeholders/amazon.jpeg"
-                    alt
+                       alt=""
                     title
                   />
                   <div className="image-overlay">
@@ -433,7 +433,7 @@ const Featured = () => {
                 <div className="portfolio-thumb">
                   <img
                     src="/assets/images/placeholders/magic-maths.jpg"
-                    alt
+                       alt=""
                     title
                   />
                   <div className="image-overlay">
@@ -457,7 +457,7 @@ const Featured = () => {
           </div>
           <div className="dt-sc-hr-small" />
           <div className="aligncenter">
-            <a href="#" className="dt-sc-button medium mustard">
+            <a href className="dt-sc-button medium mustard">
               {" "}
               Hit here to view all{" "}
               <span className="fa fa-chevron-circle-right"> </span>
@@ -476,7 +476,7 @@ const Featured = () => {
                   {/* <a href="blog-detail.html" className="blog-author">
                     <img
                       src="/assets/images/placeholders/experiment-fun2.jpg"
-                      alt
+                         alt=""
                       title
                     />
                   </a> */}
@@ -493,7 +493,7 @@ const Featured = () => {
                   <a href="blog-detail.html">
                     <img
                       src="/assets/images/placeholders/experiment-fun2.jpg"
-                      alt
+                         alt=""
                       title
                     />
                   </a>
@@ -501,7 +501,7 @@ const Featured = () => {
                 <div className="entry-details">
                   <div className="entry-title">
                     <h3>
-                      <a href="#"> Activities Improves Mind </a>
+                      <a href> Activities Improves Mind </a>
                     </h3>
                   </div>
                   {/*entry-metadata ends*/}
@@ -512,7 +512,7 @@ const Featured = () => {
                       venenatis nibh accums.
                     </p>
                   </div>
-                  <a href="#" className="dt-sc-button small">
+                  <a href className="dt-sc-button small">
                     {" "}
                     Read More{" "}
                     <span className="fa fa-chevron-circle-right"> </span>
@@ -526,7 +526,7 @@ const Featured = () => {
               <div className="blog-entry-inner">
                 <div className="entry-meta">
                   {/* <a href="blog-detail.html" className="blog-author">
-                    <img src="http://placehold.it/90x90" alt title />
+                    <img src="http://placehold.it/90x90"    alt="" title />
                   </a> */}
                   <div className="date">
                     <span> 6-10 </span>
@@ -540,7 +540,7 @@ const Featured = () => {
                   <a href="blog-detail.html">
                     <img
                       src="/assets/images/placeholders/maths-fun2.jpeg"
-                      alt
+                         alt=""
                       title
                     />
                   </a>
@@ -578,13 +578,13 @@ const Featured = () => {
         <div className="column dt-sc-one-fourth first">
           <div className="dt-sc-team">
             <div className="image">
-              <img className="item-mask" src="images/mask.png" alt title />
-              <img src="http://placehold.it/381x331" alt title />
+              <img className="item-mask" src="images/mask.png"    alt="" title />
+              <img src="http://placehold.it/381x331"    alt="" title />
               <div className="dt-sc-image-overlay">
-                {/* <a href="#" className="link">
+                {/* <a href className="link">
                   <span className="fa fa-link" />
                 </a>
-                <a href="#" className="zoom">
+                <a href className="zoom">
                   <span className="fa fa-search" />
                 </a> */}
               </div>
@@ -603,13 +603,13 @@ const Featured = () => {
         <div className="column dt-sc-one-fourth">
           <div className="dt-sc-team">
             <div className="image">
-              <img className="item-mask" src="images/mask.png" alt title />
-              <img src="http://placehold.it/381x331" alt title />
+              <img className="item-mask" src="images/mask.png"  alt="" title />
+              <img src="http://placehold.it/381x331"  alt="" title />
               <div className="dt-sc-image-overlay">
-                {/* <a href="#" className="link">
+                {/* <a href className="link">
                   <span className="fa fa-link" />
                 </a>
-                <a href="#" className="zoom">
+                <a href className="zoom">
                   <span className="fa fa-search" />
                 </a> */}
               </div>
@@ -628,13 +628,13 @@ const Featured = () => {
         <div className="column dt-sc-one-fourth">
           <div className="dt-sc-team">
             <div className="image">
-              <img className="item-mask" src="images/mask.png" alt title />
-              <img src="http://placehold.it/381x331" alt title />
+              <img className="item-mask" src="images/mask.png" alt="" title />
+              <img src="http://placehold.it/381x331" alt="" title />
               <div className="dt-sc-image-overlay">
-                {/* <a href="#" className="link">
+                {/* <a href className="link">
                   <span className="fa fa-link" />
                 </a>
-                <a href="#" className="zoom">
+                <a href className="zoom">
                   <span className="fa fa-search" />
                 </a> */}
               </div>
@@ -653,8 +653,8 @@ const Featured = () => {
         <div className="column dt-sc-one-fourth">
           <div className="dt-sc-team">
             <div className="image">
-              <img className="item-mask" src="images/mask.png" alt title />
-              <img src="http://placehold.it/381x331" alt title />
+              <img className="item-mask" src="images/mask.png"    alt="" title />
+              <img src="http://placehold.it/381x331"    alt="" title />
               <div className="dt-sc-image-overlay">
                 {/* <a href="#" className="link">
                   <span className="fa fa-link" />

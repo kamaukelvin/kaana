@@ -1,5 +1,5 @@
 import { Landing } from "./pages";
-import { Navbar, Slider, Featured, CarouselComponent } from "./components";
+import { Navbar, Slider, Featured } from "./components";
 
 function App() {
   return (
